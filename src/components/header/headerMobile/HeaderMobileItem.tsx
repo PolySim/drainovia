@@ -28,7 +28,7 @@ const HeaderMobileItem = ({
     <Button variant="ghost" onClick={onCLick} className="h-fit">
       <h4
         className={cn("text-4xl font-bebas tracking-widest uppercase", {
-          "text-linear": sectionViewing.index === index,
+          "text-green-700": sectionViewing.index === index,
         })}
       >
         {title}
