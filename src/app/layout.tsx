@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <WindowSizeInitializer />
-      <body className="flex min-h-screen w-screen">
+      <body className="flex min-h-screen w-screen overflow-x-hidden">
         <Header />
         {children}
       </body>

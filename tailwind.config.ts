@@ -27,6 +27,13 @@ const config: Config = {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+      keyframes: {
+        apparition: {
+          "0%": { opacity: "0", transform: "translateY(4rem)" },
+          "100%": { opacity: "1", transform: "translateY(0px)" },
+        },
+      },
+      animation: { apparition: "apparition 0.5s linear forwards" },
     },
   },
   plugins: [require("tailwindcss-animate")],

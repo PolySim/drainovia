@@ -5,10 +5,14 @@ import { cn } from "@/lib/utils";
 import OpenMenu from "@/components/header/headerMobile/OpenMenu";
 import { NAVIGATION_MENU } from "@/const";
 import HeaderMobileItem from "@/components/header/headerMobile/HeaderMobileItem";
+import { useEffect } from "react";
 
 const HeaderMobile = () => {
   const menuIsOpen = useSectionViewStore((state) => state.menuIsOpen);
 
+  useEffect(() => {
+    console.log(menuIsOpen);
+  }, [menuIsOpen]);
   return (
     <>
       <div
