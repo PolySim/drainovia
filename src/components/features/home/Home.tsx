@@ -1,6 +1,7 @@
 import ScrollInto from "@/utils/ScrollInto";
 import ScrollDown from "@/components/features/home/ScrollDown";
 import Image from "next/image";
+import HyperText from "@/components/magicui/hyper-text";
 
 const Home = () => {
   return (
@@ -15,9 +16,10 @@ const Home = () => {
         />
         <div className="absolute -z-20 bg-black/30 size-full" />
         <div className="relative w-fit">
-          <h1 className="text-5xl md:text-7xl text-green-700 tracking-12">
-            Drainovia
-          </h1>
+          <HyperText
+            className="text-5xl md:text-7xl font-bebas text-green-700 tracking-12"
+            text="Drainovia"
+          />
           <span className="absolute top-0 left-0 size-full bg-green-200/30 -z-10 blur-[40px] border border-solid border-red-500" />
         </div>
         <p className="text-base md:text-lg font-rubik text-gray-200 px-8">
