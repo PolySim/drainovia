@@ -2,6 +2,8 @@ import Home from "@/components/features/home/Home";
 import OurMission from "@/components/features/ourMission/OurMission";
 import AboutUs from "@/components/features/aboutUs/AboutUs";
 import Price from "@/components/features/price/Price";
+import Contact from "@/components/features/contact/Contact";
+import Footer from "@/components/footer/Footer";
 
 export default function Page() {
   return (
@@ -10,7 +12,8 @@ export default function Page() {
       <OurMission />
       <AboutUs />
       <Price />
-      <div className="h-screen" />
+      <Contact />
+      <Footer />
     </main>
   );
 }
