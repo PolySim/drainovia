@@ -32,13 +32,13 @@ const AboutUs = () => {
                 <Carousel className="w-full">
                   <CarouselContent>
                     {Array.from({ length: 3 }).map((_, index) => (
-                      <CarouselItem key={index}>
+                      <CarouselItem key={index} className="h-fit my-auto">
                         <Image
                           src={`/carousel/${index}.png`}
                           alt="carousel item"
                           width={400}
                           height={400}
-                          className="rounded-lg w-full h-full object-cover"
+                          className="rounded-lg w-full object-cover"
                         />
                       </CarouselItem>
                     ))}

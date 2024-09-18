@@ -15,11 +15,10 @@ const OurMission = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 mt-20">
             <Apparition index={0} className="flex justify-center items-center">
               <p className="font-rubik">
-                Amet qui qui est magna aliqua dolor. Fugiat adipisicing pariatur
-                enim ipsum magna. Nisi eu dolor laboris deserunt occaecat
-                laborum occaecat. Adipisicing qui ex irure eu id magna magna
-                duis reprehenderit occaecat quis. Cupidatat elit eu enim eu ad.
-                Enim irure dolor dolore nostrud velit.
+                Depuis plusieurs années, nous avons été confrontés à des
+                inondations, que ça soit dans la région Haut de France ou
+                ailleurs en France. Cela a conduit à des problèmes de sécurité,
+                financiers et environnementales.
               </p>
             </Apparition>
             <Apparition index={1}>
@@ -42,20 +41,19 @@ const OurMission = () => {
             </Apparition>
             <Apparition index={1} className="flex justify-center items-center">
               <p className="font-rubik">
-                Amet qui qui est magna aliqua dolor. Fugiat adipisicing pariatur
-                enim ipsum magna. Nisi eu dolor laboris deserunt occaecat
-                laborum occaecat. Adipisicing qui ex irure eu id magna magna
-                duis reprehenderit occaecat quis. Cupidatat elit eu enim eu ad.
-                Enim irure dolor dolore nostrud velit.
+                A contrario, le monde actuel est victime de crise d&apos;eau et
+                cela continue à augmenter. D&apos;ici une vingtaine
+                d&apos;années, les tensions peuvent conduire jusqu&apos;à une
+                guerre pour cette précieuse ressource.
               </p>
             </Apparition>
             <Apparition index={0} className="flex justify-center items-center">
               <p className="font-rubik">
-                Amet qui qui est magna aliqua dolor. Fugiat adipisicing pariatur
-                enim ipsum magna. Nisi eu dolor laboris deserunt occaecat
-                laborum occaecat. Adipisicing qui ex irure eu id magna magna
-                duis reprehenderit occaecat quis. Cupidatat elit eu enim eu ad.
-                Enim irure dolor dolore nostrud velit.
+                C&apos;est pourquoi nous avons décidé de créer un service pour
+                aider à régler ces deux problématiques. Notre solution est basée
+                sur les routes perméables, le traitement de l&apos;eau de pluie
+                et l&apos;utilisation pour les activités humaines nécessitant
+                pas d&apos;eau potable tel que les toilettes ou les jardins.
               </p>
             </Apparition>
             <Apparition index={1}>
